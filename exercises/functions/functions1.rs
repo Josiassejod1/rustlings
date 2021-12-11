@@ -1,8 +1,11 @@
 // functions1.rs
 // Make me compile! Execute `rustlings hint functions1` for hints :)
 
-// I AM NOT DONE
-
 fn main() {
-    call_me();
+    let str = "yooooo";
+    call_me(str);
+}
+
+fn call_me(value: &str) -> &str {
+    return value;
 }
